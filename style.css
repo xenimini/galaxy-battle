@@ -1,0 +1,29 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+body { 
+    font-family: 'Arial', sans-serif; 
+    overflow: hidden; 
+} 
+#info { 
+    position: absolute; 
+    top: 20px; 
+    left: 20px; 
+    color: white; 
+    background: rgba(0,0,0,0.7); 
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    pointer-events: none; 
+    z-index: 100; 
+    font-family: monospace; 
+} 
+#info h1 { 
+    font-size: 14px; 
+    margin-bottom: 4px; 
+} 
+#info p { 
+    font-size: 10px; 
+    opacity: 0.8; 
+} 
